@@ -1,0 +1,27 @@
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__title {
+    font-size: 60px;
+    margin-bottom: 32px;
+    line-height: 0.97;
+}
+
+.intro__content {
+    max-width: 579px;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 132px;
+    font-family: DMSans-Medium;
+}
+
+.intro__text{
+    color: var(--main-grey);
+    font-size: 32px;
+}
+
+.intro__text:not(:last-child) {
+    margin-bottom: 40px;
+}

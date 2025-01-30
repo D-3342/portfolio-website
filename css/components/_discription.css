@@ -1,0 +1,36 @@
+.contact {
+    font-family: Inter-Regular;
+    font-size: 32px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.discription {
+    font-family: Inter-Regular;
+    border-top: 1px solid;
+}
+
+.discription__text {
+    font-size: 32px;
+    max-width: 347px;
+}
+
+.discription__text img {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.discription__email {
+    display: flex;
+    font-size: 32px;
+    flex-direction: column;
+    gap: 27px;
+    margin-right: 60px;
+}
+
+.email__link {
+    display: flex;
+    font-size: 18px;
+}

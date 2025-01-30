@@ -1,0 +1,23 @@
+.footer {
+    margin: 50px 0 120px;
+    font-family: DMSans-Medium;
+    font-size: 21px;
+    margin-top: 174px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 21px;
+    color: var(--secondory);
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
