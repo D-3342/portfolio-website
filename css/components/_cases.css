@@ -1,5 +1,52 @@
 .cases__items {
     font-family: Inter-Medium;
-    max-width: 1120px;
+}
+
+.cases__card {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 106px;
+    border-bottom: 2px solid #000;
+}
+
+.cases__content{
+    display: flex;
+    flex-direction: column;
+    max-width: 479px;
+}
+
+.cases__number {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cases__description {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.cases__subtext__2 {
+    font-size: 18px;
+    margin-bottom: 134px;
+}
+
+.cases__subtext {
+    font-size: 14px;
+    color: var(--main-grey);
+    margin-bottom: 134px;
+}
+
+.cases__link {
+    font-size: 18px;
     border-bottom: 1px solid;
+    width: max-content;
+}
+
+.cases__link__3 {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    width: max-content;
+    color: var(--main-grey);
 }
