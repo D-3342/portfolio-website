@@ -1,0 +1,29 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 113px;
+    align-items: flex-end;
+}
+
+.head__line {
+    font-family: DMSans-Medium;
+    font-size: 60px;
+    max-width: 360px;
+    line-height: 0.97;
+    width: 100%;
+    letter-spacing: -1.2px;
+}
+
+.head__text {
+    font-family: DMSans-Regular;
+    font-size: 32px;
+    color: var(--main-grey);
+    margin-bottom: -30px;
+    max-width: 600px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90);
+}

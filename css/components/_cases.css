@@ -1,5 +1,6 @@
 .cases__items {
     font-family: Inter-Medium;
+    margin-bottom: 130px;
 }
 
 .cases__card {
@@ -8,6 +9,10 @@
     gap: 40px;
     padding-bottom: 106px;
     border-bottom: 2px solid #000;
+}
+
+.cases__card:not(:last-child) {
+    margin-bottom: 114px;
 }
 
 .cases__content{
