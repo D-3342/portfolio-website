@@ -1,5 +1,5 @@
 .footer {
-    margin: 50px 0 120px;
+    margin-bottom: 35px;
     font-family: DMSans-Medium;
     font-size: 21px;
     margin-top: 174px;
@@ -20,4 +20,18 @@
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.footer__link{
+    transition: background-color .4s, color .4s;
+}
+
+.footer__link:focus{
+    background-color: var(--secondory);
+    color: var(--main-white);
+}
+
+.footer__link:hover{
+    color: var(--main-grey);
+    transition: color 0.3s ease;
 }

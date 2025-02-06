@@ -30,7 +30,33 @@
     margin-right: 60px;
 }
 
+.email {
+    transition: background-color .4s, color .4s;
+}
+
+.email:focus {
+    background-color: var(--secondory);
+    color: var(--main-white);
+}
+
+.email:hover {
+    color: var(--main-grey);
+    transition: color 0.3s ease;
+}
+
 .email__link {
     display: flex;
     font-size: 18px;
+    max-width: max-content;
+    transition: background-color .4s, color .4s;
+}
+
+.email__link:focus {
+    background-color: var(--secondory);
+    color: var(--main-white);
+}
+
+.email__link:hover {
+    color: var(--main-grey);
+    transition: color 0.3s ease;
 }

@@ -14,6 +14,10 @@
     gap: 63px;
 }
 
+.skills__item:not(:last-child) {
+    margin-bottom: 70px;
+}
+
 .skills__left {
     max-width: 125px;
     width: 100%;
@@ -28,7 +32,24 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    justify-items:center;
+    max-width: 435px;
+    justify-items: center;
     font-size: 18px;
-    margin-bottom: 72px;
+}
+
+@media (max-width: 610px) {
+    .skills__item {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .skills__text {
+        gap: 18px;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .skills {
+        margin-bottom: 70px;
+    }
 }

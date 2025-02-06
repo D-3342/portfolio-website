@@ -22,8 +22,9 @@
     max-width: 600px;
 }
 
-.img {
-    display: flex;
-    flex-direction: row;
-    transform: rotate(90);
+.head__img {
+    transform: rotate(90deg);
+    margin-bottom: 113px;
+    width: 34px;
+    height: 38px;
 }

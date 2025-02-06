@@ -2,10 +2,13 @@
 @import 'basic/_fonts.css';
 @import 'basic/_global.css';
 @import 'basic/_vars.css';
+
 @import 'components/_header.css';
-@import 'components/_intro.css';
-@import 'components/_skills.css';
-@import 'components/_discription.css';
 @import 'components/_footer.css';
-@import 'components/_cases.css';
 @import 'components/_head.css';
+
+@import 'home/_intro.css';
+@import 'home/_skills.css';
+@import 'home/_discription.css';
+
+@import '_cases.css';

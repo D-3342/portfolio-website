@@ -47,6 +47,7 @@
     font-size: 18px;
     border-bottom: 1px solid;
     width: max-content;
+    transition: background-color .4s, color .4s;
 }
 
 .cases__link__3 {
@@ -54,4 +55,27 @@
     border-bottom: 1px solid;
     width: max-content;
     color: var(--main-grey);
+    transition: background-color .4s, color .4s;
+}
+
+.cases__link:hover {
+    color: var(--main-grey);
+    transition: color 0.3s ease;
+}
+
+.cases__link:focus {
+    background-color: var(--secondory);
+    color: var(--main-white);
+
+}
+
+.cases__link__3:hover {
+    color: var(--secondory);
+    transition: color 0.3s ease;
+}
+
+.cases__link__3:focus {
+    background-color: var(--secondory);
+    color: var(--main-white);
+
 }
