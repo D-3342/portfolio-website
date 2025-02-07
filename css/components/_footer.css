@@ -35,3 +35,19 @@
     color: var(--main-grey);
     transition: color 0.3s ease;
 }
+
+@media (max-width: 610px) {
+    
+    .footer {
+        font-size: 16px;
+        margin-top: 120px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+    }
+
+    .footer__list {
+        gap: 24px;
+    }
+}

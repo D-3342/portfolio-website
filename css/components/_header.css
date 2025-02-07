@@ -29,3 +29,20 @@
     color: var(--main-grey);
     transition: color 0.3s ease;
 }
+
+@media (max-width: 610px) {
+    
+    .header__link {
+        font-size: 16px;
+    }
+
+    .header__list {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 530px) {
+    .header__inner{
+        display: none
+    };
+}
