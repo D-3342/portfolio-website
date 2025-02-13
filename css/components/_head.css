@@ -28,3 +28,37 @@
     width: 34px;
     height: 38px;
 }
+
+@media (max-width: 1000px) {
+    .head {
+        margin-bottom: 40px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    .head {
+        margin-bottom: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .head__line {
+        font-size: 45px;
+        max-width: 300px;
+    }
+
+    .head__text {
+        font-size: 22px;
+        max-width: 550px;
+        margin-bottom: 0px;
+    }
+
+    .head__img {
+        width: 24px;
+        height: 28px;
+        margin-bottom: 20px;
+    }
+}
