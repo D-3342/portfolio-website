@@ -59,6 +59,6 @@
     .head__img {
         width: 24px;
         height: 28px;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
 }

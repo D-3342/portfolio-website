@@ -97,7 +97,11 @@
 }
 
 @media (max-width: 920px) {
-    
+
+    .cases__items {
+        margin-bottom: 30px;
+    }   
+
     .cases__card {
         margin-bottom: 30px;
         gap: 40px;
